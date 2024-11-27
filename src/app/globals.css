@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles for code blocks */
+pre {
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+  background: #1e1e1e;
+  overflow-x: auto;
+  position: relative;
+}
+
+/* Keywords and control flow */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #569cd6;
+}
+
+/* Strings */
+.hljs-string,
+.hljs-attribute,
+.hljs-value {
+  color: #ce9178;
+}
+
+/* Numbers */
+.hljs-number,
+.hljs-literal {
+  color: #b5cea8;
+}
+
+/* Comments */
+.hljs-comment,
+.hljs-quote {
+  color: #6a9955;
+  font-style: italic;
+}
+
+/* Functions */
+.hljs-function,
+.hljs-title.function_ {
+  color: #dcdcaa;
+}
+
+/* Classes and types */
+.hljs-title.class_,
+.hljs-class .hljs-title {
+  color: #4ec9b0;
+}
+
+/* Variables */
+.hljs-variable {
+  color: #9cdcfe;
+}
+
+/* SQL specific */
+.language-sql .hljs-keyword {
+  color: #569cd6;
+  font-weight: bold;
+}
+
+.language-sql .hljs-string {
+  color: #ce9178;
+}
+
+.language-sql .hljs-number {
+  color: #b5cea8;
+}
+
+/* JavaScript/TypeScript specific */
+.language-javascript .hljs-keyword,
+.language-typescript .hljs-keyword {
+  color: #c586c0;
+}
+
+.language-javascript .hljs-title.function_,
+.language-typescript .hljs-title.function_ {
+  color: #dcdcaa;
+}
+
+/* Python specific */
+.language-python .hljs-keyword {
+  color: #ff79c6;
+}
+
+.language-python .hljs-built_in {
+  color: #8be9fd;
+}
+
+/* HTML/XML specific */
+.language-html .hljs-tag,
+.language-xml .hljs-tag {
+  color: #569cd6;
+}
+
+.language-html .hljs-name,
+.language-xml .hljs-name {
+  color: #569cd6;
+}
+
+.language-html .hljs-attribute,
+.language-xml .hljs-attribute {
+  color: #9cdcfe;
+}
+
+/* CSS specific */
+.language-css .hljs-selector-class,
+.language-css .hljs-selector-id {
+  color: #d7ba7d;
+}
+
+.language-css .hljs-property {
+  color: #9cdcfe;
+}
+
+.language-css .hljs-number {
+  color: #b5cea8;
+}
+
+/* JSON specific */
+.language-json .hljs-property {
+  color: #9cdcfe;
+}
+
+.language-json .hljs-string {
+  color: #ce9178;
+}
+
+/* Markdown specific */
+.language-markdown .hljs-section {
+  color: #569cd6;
+  font-weight: bold;
+}
+
+.language-markdown .hljs-bullet {
+  color: #b5cea8;
+}
+
+.language-markdown .hljs-link {
+  color: #ce9178;
+}
+
+/* Shell/Bash specific */
+.language-shell .hljs-built_in,
+.language-bash .hljs-built_in {
+  color: #8be9fd;
+}
+
+/* Git specific */
+.language-git .hljs-keyword {
+  color: #ff79c6;
+}
+
+.language-git .hljs-string {
+  color: #ce9178;
+}
+
+/* Dark mode adjustments */
+.dark .hljs {
+  background: #1e1e1e;
+  color: #d4d4d4;
+}
+
+.dark pre::before {
+  background: #363636;
+  color: #fff;
+}
+
+/* Copy button styles */
+.code-block-header {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  display: flex;
+  gap: 0.5em;
+}
+
+.copy-button {
+  padding: 0.2em 0.5em;
+  background: #363636;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.8em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* Line numbers */
+.hljs-line-numbers {
+  counter-reset: line;
+  padding-left: 3.5em;
+  position: relative;
+}
+
+.hljs-line-numbers .line::before {
+  counter-increment: line;
+  content: counter(line);
+  position: absolute;
+  left: -3em;
+  width: 2.5em;
+  text-align: right;
+  color: #858585;
+}
