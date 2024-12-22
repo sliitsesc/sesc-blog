@@ -1,17 +1,16 @@
-import Footer from "@/app/_components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import cn from "classnames";
-import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
+import Navbar from "./_components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const spacegrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `Blog of SLIIT SESC`,
+  description: `Welcome to the official blog of SLIIT Software Engineering Students Community`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
@@ -62,11 +61,12 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
-      >
-        <ThemeSwitcher />
+        className={cn(
+          spacegrotesk.className,
+          "dark:bg-slate-900 dark:text-slate-400"
+        )}>
+        <Navbar />
         <div className="min-h-screen">{children}</div>
-        {/*<Footer />*/}
       </body>
     </html>
   );
