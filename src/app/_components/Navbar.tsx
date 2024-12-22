@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white text-blue-900 shadow-md">
+    <nav className="bg-white text-blue-900 shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between flex-col md:flex-row px-4 py-4">
         <div className="flex flex-row w-full items-center justify-between ">
           {/* Logo */}
