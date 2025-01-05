@@ -37,19 +37,22 @@ export default function Navbar() {
             <button
               onClick={toggleMenu}
               className="focus:outline-none text-blue-900 hover:text-black"
-              aria-label="Toggle menu">
+              aria-label="Toggle menu"
+            >
               {isOpen ? (
                 <svg
                   className="w-6 h-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"></path>
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
                 </svg>
               ) : (
                 <svg
@@ -57,12 +60,14 @@ export default function Navbar() {
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M4 6h16M4 12h16m-7 6h7"></path>
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  ></path>
                 </svg>
               )}
             </button>
@@ -73,16 +78,17 @@ export default function Navbar() {
         <div
           className={`md:flex md:items-end font-medium text-xl md:justify-center md:mt-0 md:mb-0 ${
             isOpen ? "flex flex-col w-full mt-4 mb-2" : "hidden"
-          }`}>
+          }`}
+        >
           <ul className="flex flex-col md:flex-row md:space-x-6 text-nowrap">
             <li className="mt-4 md:mt-0 hover:text-black hover:underline underline-offset-2">
               <Link href="/">Home</Link>
             </li>
             <li className="mt-4 md:mt-0 hover:text-black hover:underline underline-offset-2">
-              <Link href="/about">All Posts</Link>
+              <Link href="/">All Posts</Link>
             </li>
             <li className="mt-4 md:mt-0 hover:text-black hover:underline underline-offset-2">
-              <Link href="/contact">About</Link>
+              <Link href="/about">About</Link>
             </li>
           </ul>
         </div>
