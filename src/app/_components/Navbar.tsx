@@ -85,7 +85,7 @@ export default function Navbar() {
               <Link href="/">Home</Link>
             </li>
             <li className="mt-4 md:mt-0 hover:text-black hover:underline underline-offset-2">
-              <Link href="/">All Posts</Link>
+              <Link href="/allposts">All Posts</Link>
             </li>
             <li className="mt-4 md:mt-0 hover:text-black hover:underline underline-offset-2">
               <Link href="/about">About</Link>

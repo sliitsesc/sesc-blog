@@ -77,10 +77,10 @@ So, what do you think? Ready to dive in and be part of the SESC experience? Foll
 
 Have questions or suggestions? Want to know more about upcoming events? Reach out to us via:
 
-Email: (sesc@sliit.lk)[sesc@sliit.lk]
-Facebook: (sliitsecommunity)[https://web.facebook.com/sliitsecommunity]
-Instagram: (@sliit.sesc)[https://www.instagram.com/sliit.sesc]
-LinkedIn: (Software Enginineering Student Community)[https://www.linkedin.com/company/sesc-sliit/]
+Email: [sesc@sliit.lk](mailto:sesc@sliit.lk)  
+Facebook: [sliitsecommunity](https://web.facebook.com/sliitsecommunity)  
+Instagram: [@sliit.sesc](https://www.instagram.com/sliit.sesc)  
+LinkedIn: [Software Engineering Student Community](https://www.linkedin.com/company/sesc-sliit/)
 
 Let’s connect, collaborate, and code our way to the future!
 

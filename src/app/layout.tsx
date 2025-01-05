@@ -64,7 +64,8 @@ export default function RootLayout({
         className={cn(
           spacegrotesk.className,
           "dark:bg-slate-900 dark:text-slate-400"
-        )}>
+        )}
+      >
         <Navbar />
         <div className="min-h-screen">{children}</div>
       </body>
