@@ -90,7 +90,7 @@ export default function About() {
             </div>
             <div className="mt-6 flex justify-center space-x-4">
               <a
-                href="https://github.com/sliit-sesc"
+                href="https://github.com/sliitsesc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-dark-blue hover:text-accent-7"
