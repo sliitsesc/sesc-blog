@@ -10,7 +10,7 @@ export default function BlogListing() {
     <Container>
       <div className="text-center mb-12 mt-12">
         <h1 className="text-3xl md:text-4xl font-bold tracking-tighter leading-tight md:leading-none mb-2 md:mb-4">
-          Featured Posts
+          All Posts
         </h1>
         <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-4 md:px-0">
           Explore our latest insights, tutorials, and updates from the world of
