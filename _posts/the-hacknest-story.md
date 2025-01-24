@@ -2,7 +2,7 @@
 title: "Where Creativity and Collaboration Blossom: The Hacknest Story"
 excerpt: "Hacknest is not just a community, it is a movement where creativity and dreams entwine, visions bloom, and ideas shine."
 coverImage: "/assets/blog/covers/blog-cover-intro-to-hacknest.jpg"
-date: "2024-12-22"
+date: "2025-01-02"
 author:
   name: Dinithi Wickramaarachchi
   picture: "/assets/blog/authors/author-dinithi.png"
@@ -24,4 +24,3 @@ What makes Hacknest truly unique is the energy when everyone comes together. The
 Don’t settle for being ordinary, to be extraordinary join Hacknest and become part of a movement where creativity collaboration and innovation transform ideas into something truly remarkable.
 
 Follow Hacknest on **[Instagram](https://instagram.com/hacknest.sesc)**
-
