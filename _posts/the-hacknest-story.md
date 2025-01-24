@@ -23,4 +23,5 @@ What makes Hacknest truly unique is the energy when everyone comes together. The
 
 Don’t settle for being ordinary, to be extraordinary join Hacknest and become part of a movement where creativity collaboration and innovation transform ideas into something truly remarkable.
 
-Follow [Hacknest on Instagram](https://instagram.com/hacknest.sesc)
+Follow Hacknest on **[Instagram](https://instagram.com/hacknest.sesc)**
+
