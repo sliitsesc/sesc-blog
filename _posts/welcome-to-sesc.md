@@ -37,7 +37,8 @@ The SESC is buzzing with activities throughout the year. Here’s a glimpse into
 1. **Tech Events** 🖥️🚀  
    From coding marathons to expert panels, we host events that keep you ahead of the curve. These sessions are designed to expand your knowledge, sharpen your skills, and ignite your curiosity.
 
-2. **Hackathons** 💻🏆  
+2. **Hackathons** 💻🏆  dev
+
    Get ready to roll up your sleeves and dive into intense, creative problem-solving sessions. Hackathons are where ideas turn into reality, and lifelong friendships are forged over late-night debugging sessions.
 
 3. **Meetups** 🤝🗣️  
