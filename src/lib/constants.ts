@@ -1,3 +1,3 @@
 export const EXAMPLE_PATH = "blog-starter";
 export const CMS_NAME = "Markdown";
-export const HOME_OG_IMAGE_URL = "/assets/sesc-logo-svg.svg";
+export const HOME_OG_IMAGE_URL = "/assets/preview-image.png";
