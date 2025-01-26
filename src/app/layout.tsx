@@ -1,10 +1,10 @@
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import cn from "classnames";
-
 import "./globals.css";
 import Navbar from "./_components/Navbar";
+import GoogleAnalytics from "./_components/GoogleAnalytics";
 
 const spacegrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <GoogleAnalytics />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/monokai.min.css"
