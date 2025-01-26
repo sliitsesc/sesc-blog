@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sliitsesc.github.io/sitemap.xml

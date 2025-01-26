@@ -12,7 +12,16 @@ export const metadata: Metadata = {
   title: `Blog of SLIIT SESC`,
   description: `Welcome to the official blog of SLIIT Software Engineering Students Community`,
   openGraph: {
-    images: [HOME_OG_IMAGE_URL],
+    type: "website",
+    siteName: "SLIIT SESC Blog",
+    images: [
+      {
+        url: HOME_OG_IMAGE_URL,
+        width: 1200,
+        height: 630,
+        alt: "SLIIT SESC Blog",
+      },
+    ],
   },
 };
 

@@ -1,13 +1,12 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
-import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import markdownToHtml from "@/lib/markdownToHtml";
-import Alert from "@/app/_components/alert";
 import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -63,7 +62,10 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
       description,
       images: [
         {
-          url: HOME_OG_IMAGE_URL,
+          url: new URL(
+            post.ogImage.url,
+           HOME_OG_IMAGE_URL
+          ).toString(),
           width: 1200,
           height: 630,
           alt: post.title,
