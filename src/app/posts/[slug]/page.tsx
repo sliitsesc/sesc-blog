@@ -62,10 +62,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
       description,
       images: [
         {
-          url: new URL(
-            post.ogImage.url,
-           HOME_OG_IMAGE_URL
-          ).toString(),
+          url:post.ogImage.url,
           width: 1200,
           height: 630,
           alt: post.title,
