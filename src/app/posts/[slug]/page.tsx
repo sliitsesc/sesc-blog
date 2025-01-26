@@ -52,13 +52,32 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
     return notFound();
   }
 
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
+  const title = `${post.title} | Official Blog of SLIIT SESC`;
+  const description = post.excerpt;
 
   return {
     title,
+    description,
     openGraph: {
       title,
-      images: [post.ogImage.url],
+      description,
+      images: [
+        {
+          url: post.coverImage,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+      type: "article",
+      authors: [post.author.name],
+      publishedTime: post.date,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [post.coverImage],
     },
   };
 }
