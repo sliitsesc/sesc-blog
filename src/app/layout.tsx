@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "SLIIT SESC Blog",
+    url: "https://blog.sliitsesc.org",
     images: [
       {
-        url: HOME_OG_IMAGE_URL ,
+        url: HOME_OG_IMAGE_URL,
         width: 1200,
         height: 630,
-        
       },
     ],
   },

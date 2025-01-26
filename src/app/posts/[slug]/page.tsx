@@ -53,6 +53,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
 
   const title = `${post.title} | Official Blog of SLIIT SESC`;
   const description = post.excerpt;
+  const url = `https://blog.sliitsesc.org/posts/${post.slug}`;
 
   return {
     title,
@@ -60,9 +61,10 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
     openGraph: {
       title,
       description,
+      url,
       images: [
         {
-          url:post.ogImage.url,
+          url: post.ogImage.url,
           width: 1200,
           height: 630,
           alt: post.title,
