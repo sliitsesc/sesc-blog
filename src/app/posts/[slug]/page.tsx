@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
-import { CMS_NAME } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Alert from "@/app/_components/alert";
 import Container from "@/app/_components/container";
@@ -63,7 +63,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
       description,
       images: [
         {
-          url: post.ogImage.url,
+          url: HOME_OG_IMAGE_URL,
           width: 1200,
           height: 630,
           alt: post.title,
