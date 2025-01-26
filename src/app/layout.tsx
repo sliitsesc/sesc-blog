@@ -17,6 +17,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: HOME_OG_IMAGE_URL,
+        width: 1200,
+        height: 630,
         alt: "SLIIT SESC Blog",
       },
     ],
