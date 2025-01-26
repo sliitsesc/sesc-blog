@@ -63,7 +63,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
       description,
       images: [
         {
-          url: post.coverImage,
+          url: post.ogImage.url,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -72,12 +72,6 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
       type: "article",
       authors: [post.author.name],
       publishedTime: post.date,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [post.coverImage],
     },
   };
 }
