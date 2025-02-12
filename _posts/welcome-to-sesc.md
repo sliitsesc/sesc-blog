@@ -16,7 +16,7 @@ So grab a coffee (we know most of you love it ☕) and join us as we introduce y
 
 ## **Who Are We?**
 
-![SESC Board Members](/assets/preveiw-image.png)
+![SESC Cover Image](/assets/preview-image.png)
 
 The SESC is more than just a student body it’s a family of tech-savvy dreamers, doers, and thinkers. It’s where undergraduate software engineers from SLIIT come together to learn, grow, and build bonds that extend far beyond the classroom.
 
@@ -37,7 +37,7 @@ The SESC is buzzing with activities throughout the year. Here’s a glimpse into
 1. **Tech Events** 🖥️🚀  
    From coding marathons to expert panels, we host events that keep you ahead of the curve. These sessions are designed to expand your knowledge, sharpen your skills, and ignite your curiosity.
 
-2. **Hackathons** 💻🏆  dev
+2. **Hackathons** 💻🏆 dev
 
    Get ready to roll up your sleeves and dive into intense, creative problem-solving sessions. Hackathons are where ideas turn into reality, and lifelong friendships are forged over late-night debugging sessions.
 
